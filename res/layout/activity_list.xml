@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity"
+    android:background="#999999" >
+
+    <TextView
+        android:id="@+id/bar"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/bar" />
+
+    <LinearLayout
+        android:id="@+id/categoryBar"
+        android:layout_width="fill_parent"
+        android:layout_height="35sp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bar"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp" >
+
+        <TextView
+            android:id="@+id/categoryBtn"
+            android:layout_width="85sp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:textColor="#3399ff" 
+            android:textSize="15sp"
+            android:padding="8dp"
+            android:text="@string/category" />
+        
+        <TextView 
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:background="#ffffff"
+            android:textColor="#3399ff"
+            android:textSize="15sp"
+            android:padding="8dp"
+            android:layout_marginLeft="1dp" />
+    </LinearLayout>
+    
+    <ScrollView 
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/categoryBar"
+        android:layout_marginTop="1sp" >
+         <!-- 
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp" 
+                android:background="#ffffff" >
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15sp"
+                    android:textColor="#3399ff"
+                    android:textSize="10pt"
+                    android:text="맛있는 맛 과자" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:textColor="#3399ff"
+                    android:text="1500won" />
+            </LinearLayout>
+        </LinearLayout>
+        -->
+    </ScrollView>
+</RelativeLayout>

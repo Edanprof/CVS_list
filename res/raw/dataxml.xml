@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <promo>1</promo>
+        <name>알카라인건전지</name>
+        <price>2000</price>
+        <type>생필품 일반</type>
+    </product>
+    <product>
+        <promo>1</promo>
+        <name>빙그레바나나맛</name>
+        <price>1000</price>
+        <type>유제품</type>
+    </product>
+    <product>
+        <promo>2</promo>
+        <name>레쓰비</name>
+        <price>900</price>
+        <type>커피</type>
+    </product>
+    <product>
+        <promo>2</promo>
+        <name>캐릭터반창고</name>
+        <price>2000</price>
+        <type>생필품 일반</type>
+    </product>
+    <product>
+        <promo>1</promo>
+        <name>롯데후라보노</name>
+        <price>1000</price>
+        <type>껌, 사탕류</type>
+    </product>
+    <product>
+        <promo>2</promo>
+        <name>갸스비헤어왁스</name>
+        <price>4000</price>
+        <type>생필품 일반</type>
+    </product>
+    <product>
+        <promo>2</promo>
+        <name>가나초콜릿 마일드</name>
+        <price>1500</price>
+        <type>초콜릿</type>
+    </product>
+    <product>
+        <promo>1</promo>
+        <name>메타콘 민트맛</name>
+        <price>2000</price>
+        <type>냉동제과</type>
+    </product>
+    <product>
+        <promo>2</promo>
+        <name>여행용 티슈</name>
+        <price>500</price>
+        <type>생필품 일반</type>
+    </product>
+    <product>
+        <promo>2</promo>
+        <name>일회용 종이컵(소)</name>
+        <price>500</price>
+        <type>생필품 일반</type>
+    </product>
+    <product>
+        <promo>2</promo>
+        <name>고향만두 1kg</name>
+        <price>7500</price>
+        <type>냉동식품</type>
+    </product>
+</products>
